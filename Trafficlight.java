@@ -1,4 +1,24 @@
-import javax.swing.*;
+/*
+The algorithm is for a simple traffic light simulator. It creates three radio buttons, one for each color of the traffic light. The user can select a color to display on the traffic light. The algorithm also includes a paintComponent method that draws the traffic light on the screen.
+
+The algorithm works as follows:
+
+The algorithm first creates a new instance of the light class. This class contains all of the code for the traffic light.
+The light constructor creates a new JPanel window and sets its properties.
+The constructor then creates three radio buttons, one for each color of the traffic light.
+The constructor then adds the radio buttons to the JPanel window.
+The constructor then sets the visibility of the JPanel window to true.
+The actionPerformed method is called whenever a radio button is selected.
+The actionPerformed method first checks to see which radio button was selected.
+If the red radio button was selected, the method sets the red_c variable to Color.red. The yellow_c and green_c variables are set to the background color of the JPanel window.
+If the yellow radio button was selected, the method sets the yellow_c variable to Color.yellow. The red_c and green_c variables are set to the background color of the JPanel window.
+If the green radio button was selected, the method sets the green_c variable to Color.green. The red_c and yellow_c variables are set to the background color of the JPanel window.
+The repaint method is then called to redraw the traffic light.
+The paintComponent method is called whenever the JPanel window needs to be redrawn.
+The paintComponent method first draws three circles on the JPanel window, one for each color of the traffic light.
+The method then sets the color of the circles to the values of the red_c, yellow_c, and green_c variables.
+The method then fills the circles with color
+*/import javax.swing.*;
  import java.awt.*; 
  import java.awt.event.*;
 class light extends JPanel implements ActionListener
