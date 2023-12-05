@@ -1,4 +1,24 @@
-import javax.swing.*;
+/*
+It takes two numbers as input and performs an operation on them, such as addition, subtraction, multiplication, division, or modulo. The result is then displayed on the screen.
+
+The algorithm works as follows:
+
+The algorithm first creates a new instance of the CalcMain class. This class contains all of the code for the calculator.
+The CalcMain constructor creates a new JFrame window and sets its properties.
+The constructor then creates all of the buttons and text fields that the calculator will need.
+The constructor then adds the buttons and text fields to the JFrame window.
+The constructor then sets the visibility of the JFrame window to true.
+The actionPerformed method is called whenever a button is clicked.
+The actionPerformed method first checks to see which button was clicked.
+If a number button was clicked, the method appends the number to the text field.
+If the point button was clicked, the method appends a decimal point to the text field.
+If an operator button was clicked, the method stores the number that is currently in the text field and the operator. The text field is then cleared.
+If the equals button was clicked, the method stores the number that is currently in the text field. The method then performs the operation that was specified by the operator. The result is then displayed in the text field.
+If the CLR button was clicked, the text field is cleared.
+If the DEL button was clicked, the last character is removed from the text field.
+If the NEG button was clicked, the number in the text field is negated.
+The algorithm is well-structured and easy to understand. It is also easy to modify to add new features, such as support for more operations or parentheses
+*/import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
